@@ -4,7 +4,7 @@
 
 The Product Sales Dashboard provides a clear view of sales performance by individual agents. It highlights product sales, activity duration, and agent participation, allowing management to make informed decisions.
 
-Features
+#Features
 
 Clustered Column Chart for comparing:
 
@@ -15,7 +15,7 @@ Duration of Sales Activity
 Agent Participation
 
 
-Key Performance Indicators (KPIs):
+#Key Performance Indicators (KPIs):
 
 Total Products Sold
 
@@ -25,7 +25,7 @@ Number of Agents
 
 
 
-Insights
+#Insights
 
 Sales remain consistent across agents.
 
@@ -34,8 +34,7 @@ Top performers include Michelle Williams and Agent X.
 Dana Hardy shows lower sales activity, indicating potential for improvement.
 
 
-Purpose
-
+#Purpose
 The dashboard is designed to help:
 
 Track sales performance.
@@ -45,7 +44,7 @@ Identify high and low-performing agents.
 Support sales strategy and resource allocation.
 
 
-Usage
+#Usage
 
 1. Open the dashboard file in Excel or Power BI.
 
