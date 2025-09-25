@@ -1,55 +1,69 @@
 # sales-analytics
-"This repository contains the Netflix Movies and TV Shows dataset, cleaned and preprocessed in Excel. Missing values were handled, duplicates removed, text standardized, and dates formatted to make the dataset ready for analysis and visualization."
- Overview
+📌 Overview
 
-The Product Sales Dashboard provides a clear view of sales performance by individual agents. It highlights product sales, activity duration, and agent participation, allowing management to make informed decisions.
+This repository contains a Product Sales Dashboard built using Power Query and Excel. The dashboard processes raw sales data (from Product_Sales.xlsx) to provide insights into agent performance, product sales, and customer interactions.
 
-#Features
+🛠 Data Processing (Power Query)
 
-Clustered Column Chart for comparing:
+The dataset is transformed using Power Query Editor with the following applied steps:
 
-Total Products Sold
-
-Duration of Sales Activity
-
-Agent Participation
+1. Source – Load sales data from Product_Sales.xlsx.
 
 
-#Key Performance Indicators (KPIs):
+2. Navigation – Select the Product_Sales table.
 
-Total Products Sold
 
-Total Duration
+3. Promoted Headers – Use the first row as column headers.
 
-Number of Agents
+
+4. Changed Type – Convert columns to correct data types (AgentID, CallID, CustomerID, Duration, ProductSold).
 
 
 
-#Insights
+Columns in Dataset
 
-Sales remain consistent across agents.
+AgentID – Unique identifier for sales agent.
 
-Top performers include Michelle Williams and Agent X.
+CallID – Call reference number.
 
-Dana Hardy shows lower sales activity, indicating potential for improvement.
+CustomerID – Customer identifier.
 
+PickedUp – Whether the call was picked up.
 
-#Purpose
-The dashboard is designed to help:
+Duration – Duration of the call.
 
-Track sales performance.
+ProductSold – Number of products sold in a call.
 
-Identify high and low-performing agents.
-
-Support sales strategy and resource allocation.
+Agent_Name – Name of the sales agent.
 
 
-#Usage
+📈 Dashboard Insights
 
-1. Open the dashboard file in Excel or Power BI.
+Compare Total Products Sold, Duration, and Agent Participation.
+
+Visualize performance through clustered column charts and KPIs.
+
+Identify top-performing agents and areas for improvement.
 
 
-2. Review KPIs for overall performance.
+🎯 Key Benefits
+
+Automates data cleaning and transformation with Power Query.
+
+Provides clear visualizations of sales performance.
+
+Supports decision-making by tracking KPIs.
 
 
-3. Use charts to compare agent results.
+🚀 Usage
+
+1. Clone or download this repository.
+
+
+2. Open Product_Sales.xlsx in Excel / Power BI.
+
+
+3. Refresh data in Power Query to apply transformations.
+
+
+4. Explore the dashboard to analyze sales trends and agent performance.
